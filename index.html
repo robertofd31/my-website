@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Portfolio of Roberto Fajardo - Data & ML Engineer. Experience, projects, and contact.">
+  <title>Roberto Fajardo | Data & ML Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body data-theme="dark">
+  <div class="background-effects">
+    <div class="glow glow-1"></div>
+    <div class="glow glow-2"></div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home">
+        <span class="brand-text">RF.</span>
+      </a>
+      <nav class="nav">
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#about" class="nav-link">About me</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <button class="theme-toggle" type="button" aria-label="Toggle theme">
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5" />
+            <line x1="12" y1="1" x2="12" y2="3" />
+            <line x1="12" y1="21" x2="12" y2="23" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+            <line x1="1" y1="12" x2="3" y2="12" />
+            <line x1="21" y1="12" x2="23" y2="12" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+          </svg>
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            style="display: none;">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+        </button>
+      </nav>
+      <button class="menu-toggle" aria-label="Open menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12" />
+          <line x1="3" y1="6" x2="21" y2="6" />
+          <line x1="3" y1="18" x2="21" y2="18" />
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero container reveal">
+      <div class="hero-content">
+        <div class="status-badge">
+          <span class="status-dot"></span>
+          Available for work
+        </div>
+        <h1 class="hero-title">Hey, I'm <span class="gradient-text">Roberto Fajardo</span></h1>
+        <p class="lead">
+          +4 years of experience. <strong>Statistician</strong> and <strong>Data & ML Engineer</strong>. Specialized in
+          building scalable
+          cloud infrastructure, predictive algorithms, and end-to-end data pipelines for complex business problems.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <polyline points="22,6 12,13 2,6" />
+            </svg>
+            Contact me
+          </a>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/roberto-fajardo-duro/" target="_blank"
+            rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+              <rect x="2" y="9" width="4" height="12" />
+              <circle cx="4" cy="4" r="2" />
+            </svg>
+            LinkedIn
+          </a>
+          <a class="btn btn-secondary" href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+            </svg>
+            GitHub
+          </a>
+          <a class="btn btn-secondary" href="CV_RobertoFajardoDuro.pdf" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+            Resume
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section container">
+      <h2 class="section-title reveal">
+        <svg class="title-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+          <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+        </svg>
+        Work Experience
+      </h2>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content card glass">
+            <div class="timeline-header">
+              <div>
+                <h3 class="role">Data Hub Specialist</h3>
+                <h4 class="company">Bank Sabadell</h4>
+              </div>
+              <span class="period">September 2024 - Present</span>
+            </div>
+            <p>
+              Validated performance and improved discrimination of <strong>complex credit risk models</strong>. Optimized data process workflows and developed analytical programs in <strong>SAS</strong>, enhancing overall results by <strong>50%</strong>. Managed large-scale financial databases using <strong>SQL</strong>.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content card glass">
+            <div class="timeline-header">
+              <div>
+                <h3 class="role">Founder & Data Engineer</h3>
+                <h4 class="company">Orwee</h4>
+              </div>
+              <span class="period">March 2023 - Present</span>
+            </div>
+            <p>
+              Designed and implemented the project's <strong>end-to-end cloud architecture</strong>. Built a complete
+              <strong>ETL system</strong> and a
+              custom <strong>API</strong> to deliver real-time data to the app (<strong>+50M data points read</strong>).
+              Implemented machine learning algorithms to generate
+              advanced analytics for <strong>hundreds of monthly users</strong>.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content card glass">
+            <div class="timeline-header">
+              <div>
+                <h3 class="role">On-Chain Data Analyst</h3>
+                <h4 class="company">ChainTaxFlow (Freelance)</h4>
+              </div>
+              <span class="period">February 2025 - June 2025</span>
+            </div>
+            <p>
+              <strong>Compliance:</strong> Engineered an on-chain methodology to track complex LP transactions, increasing tax reporting accuracy by <strong>95%</strong>. <strong>Architecture:</strong> Deployed scalable backend infrastructure and an <strong>AI agent</strong> for regulatory queries, reducing manual review time by <strong>60%</strong>.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content card glass">
+            <div class="timeline-header">
+              <div>
+                <h3 class="role">Data Scientist</h3>
+                <h4 class="company">Plutus (Freelance)</h4>
+              </div>
+              <span class="period">November 2023 - January 2024</span>
+            </div>
+            <p>
+              <strong>Modeling:</strong> Designed token longevity simulations (<strong>5+ year outlook</strong>), ensuring protocol sustainability under extreme market volatility. <strong>Economics:</strong> Estimated intrinsic value capture across segments, increasing projected staking retention by <strong>20%</strong>.
+            </p>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content card glass">
+            <div class="timeline-header">
+              <div>
+                <h3 class="role">DeFi Analyst</h3>
+                <h4 class="company">Albeit Capital</h4>
+              </div>
+              <span class="period">October 2022 - August 2024</span>
+            </div>
+            <p>
+              Created interactive <strong>Power BI dashboards</strong> for strategic investment decisions. Developed <strong>Python-based ETL processes</strong>, successfully automating <strong>80% of visualization workflows</strong> and reporting, enhancing <strong>operational efficiency by 40%</strong>.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <h2 class="section-title reveal">
+        <svg class="title-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="16 18 22 12 16 6" />
+          <polyline points="8 6 2 12 8 18" />
+        </svg>
+        Projects
+      </h2>
+
+      <div class="grid">
+        <article class="project-card card glass reveal">
+          <div class="project-content">
+            <h3 class="project-title">orwee.io - 360º DeFi Tool</h3>
+            <p class="project-desc">
+              Flagship product: a comprehensive terminal designed to bring clarity into decentralized finance. Includes
+              LP Explorer, Portfolio tracking, Farms, Watchlist, and Funding Rate Arbitrage. +50M Data Points read.
+            </p>
+            <div class="tags">
+              <span class="tag"><i class="dev-icon"
+                  style="mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/python.svg'); -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/python.svg');"></i>Python</span>
+              <span class="tag"><svg class="lucide lucide-cloud" style="width:14px; height:14px; margin-right:4px;"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z" />
+                </svg>AWS</span>
+              <span class="tag"><i class="dev-icon"
+                  style="mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/ethereum.svg'); -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/ethereum.svg');"></i>On-chain
+                Data</span>
+              <span class="tag"><i class="dev-icon"
+                  style="mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/typescript.svg'); -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/typescript.svg');"></i>TypeScript</span>
+            </div>
+          </div>
+          <div class="project-actions">
+            <a href="https://orwee.io" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                <polyline points="15 3 21 3 21 9" />
+                <line x1="10" y1="14" x2="21" y2="3" />
+              </svg>
+              Preview
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card card glass reveal">
+          <div class="project-content">
+            <h3 class="project-title">Learning Heroes Crypto Analytics</h3>
+            <p class="project-desc">
+              Custom KPI dashboard and data tools for Spain's largest crypto academy. Integration of real-time on-chain
+              data from protocols for educational and trading purposes (Liquidity Pools opportunity finder).
+            </p>
+            <div class="tags">
+              <span class="tag"><i class="dev-icon"
+                  style="mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/apacheairflow.svg'); -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/apacheairflow.svg');"></i>ETL
+                Pipelines</span>
+              <span class="tag"><i class="dev-icon"
+                  style="mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/postgresql.svg'); -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/postgresql.svg');"></i>SQL</span>
+              <span class="tag"><i class="dev-icon"
+                  style="mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/postman.svg'); -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/postman.svg');"></i>APIs</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card card glass reveal">
+          <div class="project-content">
+            <h3 class="project-title">ChainTaxFlow</h3>
+            <p class="project-desc">
+              On-chain methodology to track LP transactions for DeFi tax compliance. Deployment of an AI Agent
+              (LangChain) to automate crypto tax regulation queries and full backend infrastructure management.
+            </p>
+            <div class="tags">
+              <span class="tag"><i class="dev-icon"
+                  style="mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/openai.svg'); -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/openai.svg');"></i>AI
+                Agents</span>
+              <span class="tag"><svg class="lucide lucide-shield-check"
+                  style="width:14px; height:14px; margin-right:4px;" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                  <path d="m9 12 2 2 4-4" />
+                </svg>Compliance</span>
+              <span class="tag"><i class="dev-icon"
+                  style="mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/nodedotjs.svg'); -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/nodedotjs.svg');"></i>Backend</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card card glass reveal">
+          <div class="project-content">
+            <h3 class="project-title">Gliquid ALM</h3>
+            <p class="project-desc">
+              Design of an Automated Liquidity Manager (ALM) algorithm based on Bollinger Bands and Keltner Channels.
+              Strategy simulation engine with on-chain subgraph data extraction and time-series analysis.
+            </p>
+            <div class="tags">
+              <span class="tag"><i class="dev-icon"
+                  style="mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/jupyter.svg'); -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/jupyter.svg');"></i>Quant
+                Models</span>
+              <span class="tag"><i class="dev-icon"
+                  style="mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/python.svg'); -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/python.svg');"></i>Python</span>
+              <span class="tag"><i class="dev-icon"
+                  style="mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/pandas.svg'); -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/pandas.svg');"></i>Backtesting</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card card glass reveal">
+          <div class="project-content">
+            <h3 class="project-title">R2R LP Vaults</h3>
+            <p class="project-desc">
+              Asset Management strategy for LP Vaults. Liquidity research and automated flows to optimize yield
+              performance on on-chain positions.
+            </p>
+            <div class="tags">
+              <span class="tag"><svg class="lucide lucide-briefcase" style="width:14px; height:14px; margin-right:4px;"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect width="20" height="14" x="2" y="7" rx="2" ry="2" />
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                </svg>Asset Management</span>
+              <span class="tag"><i class="dev-icon"
+                  style="mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/web3dotjs.svg'); -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/web3dotjs.svg');"></i>LP
+                Vaults</span>
+              <span class="tag"><svg class="lucide lucide-search" style="width:14px; height:14px; margin-right:4px;"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8" />
+                  <path d="m21 21-4.3-4.3" />
+                </svg>Research</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card card glass reveal">
+          <div class="project-content">
+            <h3 class="project-title">DeFi Antipasivo & Galaxy</h3>
+            <p class="project-desc">
+              Development of custom Dashboards for crypto educational academies. Real-time analysis of market
+              opportunities and on-chain tools for students and investors.
+            </p>
+            <div class="tags">
+              <span class="tag"><svg class="lucide lucide-graduation-cap"
+                  style="width:14px; height:14px; margin-right:4px;" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path
+                    d="M21.42 10.922a2 2 0 0 1-.019 3.07l-9.28 8.134a2 2 0 0 1-2.234 0l-9.28-8.134a2 2 0 0 1-.019-3.07l9.29-8.12a2 2 0 0 1 2.25 0z" />
+                  <path d="M14 14.59V20a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-5.41" />
+                  <path d="M10 22h4" />
+                  <path d="M22 10v6" />
+                </svg>Education</span>
+              <span class="tag"><i class="dev-icon"
+                  style="mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/grafana.svg'); -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/grafana.svg');"></i>Dashboards</span>
+              <span class="tag"><svg class="lucide lucide-bar-chart" style="width:14px; height:14px; margin-right:4px;"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="12" x2="12" y1="20" y2="10" />
+                  <line x1="18" x2="18" y1="20" y2="4" />
+                  <line x1="6" x2="6" y1="20" y2="16" />
+                </svg>Analytics</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section container">
+      <h2 class="section-title reveal">
+        <svg class="title-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+          <path d="M6 12v5c3 3 9 3 12 0v-5" />
+        </svg>
+        Education
+      </h2>
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content card glass">
+            <div class="timeline-header">
+              <div>
+                <h3 class="role">Big Data Master Degree</h3>
+                <h4 class="company">European University</h4>
+              </div>
+              <span class="period">2022 - 2023</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content card glass">
+            <div class="timeline-header">
+              <div>
+                <h3 class="role">Statistics Bachelor Degree</h3>
+                <h4 class="company">Complutense University</h4>
+              </div>
+              <span class="period">2018 - 2022</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section container reveal">
+      <h2 class="section-title">
+        <svg class="title-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon
+            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+        </svg>
+        Skills
+      </h2>
+      <div class="card glass skills-container">
+        <div class="skills-group">
+          <h3>Software & Technologies</h3>
+          <div class="tags large">
+            <span class="tag tag-highlight"><i class="dev-icon"
+                style="mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/python.svg'); -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/python.svg');"></i>Python</span>
+            <span class="tag tag-highlight"><i class="dev-icon"
+                style="mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/postgresql.svg'); -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/postgresql.svg');"></i>SQL</span>
+            <span class="tag tag-highlight"><svg class="lucide lucide-cloud"
+                style="width:14px; height:14px; margin-right:4px;" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z" />
+              </svg>AWS</span>
+            <span class="tag"><svg class="lucide lucide-database" style="width:14px; height:14px; margin-right:4px;"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <ellipse cx="12" cy="5" rx="9" ry="3" />
+                <path d="M3 5V19A9 3 0 0 0 21 19V5" />
+                <path d="M3 12A9 3 0 0 0 21 12" />
+              </svg>SAS</span>
+            <span class="tag"><i class="dev-icon"
+                style="mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/r.svg'); -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/r.svg');"></i>R</span>
+            <span class="tag"><i class="dev-icon"
+                style="mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/mongodb.svg'); -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/mongodb.svg');"></i>NoSQL</span>
+            <span class="tag"><svg class="lucide lucide-layout-dashboard"
+                style="width:14px; height:14px; margin-right:4px;" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <rect width="7" height="9" x="3" y="3" rx="1" />
+                <rect width="7" height="5" x="14" y="3" rx="1" />
+                <rect width="7" height="9" x="14" y="12" rx="1" />
+                <rect width="7" height="5" x="3" y="16" rx="1" />
+              </svg>Power BI</span>
+            <span class="tag"><i class="dev-icon"
+                style="mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/tableau.svg'); -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/tableau.svg');"></i>Tableau</span>
+          </div>
+        </div>
+        <div class="skills-group">
+          <h3>Core Skills</h3>
+          <div class="tags large outline">
+            <span class="tag"><svg class="lucide lucide-trending-up" style="width:14px; height:14px; margin-right:4px;"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="22 7 13.5 15.5 8.5 10.5 2 17" />
+                <polyline points="16 7 22 7 22 13" />
+              </svg>Finance Knowledge</span>
+            <span class="tag"><i class="dev-icon"
+                style="mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/openai.svg'); -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/openai.svg');"></i>AI
+              & Machine Learning</span>
+            <span class="tag"><i class="dev-icon"
+                style="mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/apacheairflow.svg'); -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/apacheairflow.svg');"></i>ETL
+              & Data Pipelines</span>
+            <span class="tag"><svg class="lucide lucide-pie-chart" style="width:14px; height:14px; margin-right:4px;"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21.21 15.89A10 10 0 1 1 8 2.83" />
+                <path d="M22 12A10 10 0 0 0 12 2v10z" />
+              </svg>Data Visualization</span>
+            <span class="tag"><svg class="lucide lucide-puzzle" style="width:14px; height:14px; margin-right:4px;"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M19.439 7.85c-.049.322.059.648.289.878l1.568 1.568c.47.47.706 1.087.706 1.704s-.235 1.233-.706 1.704l-1.611 1.611a.98.98 0 0 0-.253 1.02l.363 1.242c.336 1.148-.207 2.394-1.259 2.872l-1.15.524a1.18 1.18 0 0 0-.66.861l-.193 1.32c-.159 1.089-1.086 1.874-2.186 1.874h-1.64c-1.12 0-2.043-.76-2.234-1.849l-.151-1.3A1.17 1.17 0 0 0 9.4 20.62l-1.054-.42c-1.074-.43-1.657-1.63-1.332-2.738l.385-1.312a.98.98 0 0 0-.254-1.021l-1.61-1.61c-.47-.47-.706-1.088-.706-1.705s.235-1.233.706-1.704l1.568-1.568c.23-.23.338-.556.289-.878l-.133-1.02c-.184-1.408.852-2.7 2.268-2.7h1.096c.646 0 1.206-.47 1.314-1.106l.16-1.025c.18-1.264 1.272-2.186 2.545-2.186h1.05c1.295 0 2.41.95 2.571 2.233l.135 1.08c.11.884.9 1.536 1.796 1.536h.653c1.463 0 2.518 1.353 2.27 2.801z" />
+                <path d="m11.25 15.25 3.5-3.5" />
+              </svg>Problem-Solving</span>
+            <span class="tag"><svg class="lucide lucide-clock" style="width:14px; height:14px; margin-right:4px;"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>Time Management</span>
+            <span class="tag"><svg class="lucide lucide-globe" style="width:14px; height:14px; margin-right:4px;"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                <path d="M2 12h20" />
+              </svg>Remote Work & Autonomy</span>
+            <span class="tag"><svg class="lucide lucide-rocket" style="width:14px; height:14px; margin-right:4px;"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" />
+                <path d="m12 15-3-3a22 22 0 0 1 3.82-13 1.5 1.5 0 0 1 2.18 0 22 22 0 0 1 3.82 13Z" />
+                <path d="M9 11.5L7.5 10" />
+                <path d="M15 11.5L16.5 10" />
+              </svg>Entrepreneurial Mindset</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container reveal">
+      <h2 class="section-title">
+        <svg class="title-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+          <circle cx="12" cy="7" r="4" />
+        </svg>
+        About me
+      </h2>
+      <div class="about-content card glass">
+        <p>
+          My name is <strong>Roberto Fajardo</strong>. I am a data passionate with a background as a statistician and a
+          strong entrepreneurial drive. I am deeply interested in transforming raw data into actionable insights and
+          automated systems that scale.
+        </p>
+        <p>
+          Throughout my career, I have transitioned from evaluating complex risk models in traditional banking (Bank
+          Sabadell) to building cutting-edge technological solutions in fast-paced tech environments. As a founder of
+          <strong>Orwee Solutions</strong>, I have designed cloud architectures and ETL pipelines from scratch that
+          power robust analytical platforms.
+        </p>
+        <p>
+          My goal is to solve complex problems by building resilient systems, from real-time APIs to backtesting
+          algorithms and AI agents that automate and simplify complexity.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="section container reveal">
+      <h2 class="section-title">
+        <svg class="title-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+          <polyline points="22,6 12,13 2,6" />
+        </svg>
+        Contact
+      </h2>
+      <div class="contact-card card glass text-center">
+        <h3>Got a project in mind?</h3>
+        <p class="contact-desc">Tell me about your challenge. I will analyze your case and propose the most suitable
+          data or backend architecture solution for your company.</p>
+        <a class="btn btn-primary contact-btn" href="mailto:hello@orwee.io">
+          Contact me
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 Roberto Fajardo</p>
+      <div class="footer-links">
+        <a href="#home">Back to top</a>
+        <span class="separator">•</span>
+        <span>Built with dedication</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
