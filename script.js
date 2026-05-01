@@ -134,7 +134,11 @@ document.addEventListener('DOMContentLoaded', () => {
       "skill-finance": "Finance Knowledge",
       "about-p1": "My name is Roberto Fajardo. I am a data passionate with a background as a statistician and a strong entrepreneurial drive. I am deeply interested in <strong>transforming raw data into actionable insights and automated systems that scale</strong>.",
       "about-p2": "Throughout my career, I have transitioned from evaluating complex risk models in traditional banking (Bank Sabadell) to building <strong>cutting-edge technological solutions in fast-paced tech environments</strong>. As a founder of Orwee Solutions, I have designed <strong>cloud architectures and ETL pipelines from scratch that power robust analytical platforms</strong>.",
-      "about-p3": "<strong>My goal is to solve complex problems by building resilient systems</strong>, from real-time APIs to backtesting algorithms and AI agents that automate and simplify complexity."
+      "about-p3": "<strong>My goal is to solve complex problems by building resilient systems</strong>, from real-time APIs to backtesting algorithms and AI agents that automate and simplify complexity.",
+      "contact-cta": "Got a project in mind?",
+      "contact-desc": "Tell me about your challenge. I will analyze your case and propose the most suitable data or backend architecture solution for your company.",
+      "footer-top": "Back to top",
+      "footer-built": "Built with dedication"
     },
     es: {
       "nav-exp": "Experiencia",
@@ -177,7 +181,11 @@ document.addEventListener('DOMContentLoaded', () => {
       "skill-finance": "Conocimientos Financieros",
       "about-p1": "Mi nombre es Roberto Fajardo. Soy un apasionado de los datos con formación como estadístico y un fuerte impulso emprendedor. Estoy profundamente interesado en <strong>transformar datos brutos en insights accionables y sistemas automatizados que escalen</strong>.",
       "about-p2": "A lo largo de mi carrera, he pasado de evaluar modelos complejos de riesgo en banca tradicional (Banco Sabadell) a construir <strong>soluciones tecnológicas de vanguardia en entornos tecnológicos de ritmo rápido</strong>. Como fundador de Orwee Solutions, he diseñado <strong>arquitecturas cloud y pipelines ETL desde cero que potencian plataformas analíticas robustas</strong>.",
-      "about-p3": "<strong>Mi objetivo es resolver problemas complejos construyendo sistemas resilientes</strong>, desde APIs en tiempo real hasta algoritmos de backtesting y agentes de IA que automatizan y simplifican la complejidad."
+      "about-p3": "<strong>Mi objetivo es resolver problemas complejos construyendo sistemas resilientes</strong>, desde APIs en tiempo real hasta algoritmos de backtesting y agentes de IA que automatizan y simplifican la complejidad.",
+      "contact-cta": "¿Tienes un proyecto en mente?",
+      "contact-desc": "Cuéntame tu desafío. Analizaré tu caso y propondré la solución de arquitectura de datos o backend más adecuada para tu empresa.",
+      "footer-top": "Volver arriba",
+      "footer-built": "Hecho con dedicación"
     }
   };
 
