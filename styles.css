@@ -406,6 +406,58 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--text-primary);
 }
 
+/* Certifications */
+.certifications-section {
+  margin-top: 3rem;
+}
+
+.subsection-title {
+  font-size: 1.3rem;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  border-left: 3px solid var(--primary-color);
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.cert-item {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.25rem;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.cert-item:hover {
+  transform: translateY(-3px);
+  border-color: var(--primary-color);
+}
+
+.cert-item .dev-icon {
+  width: 36px;
+  height: 36px;
+  background-color: var(--primary-color);
+  flex-shrink: 0;
+}
+
+.cert-info h4 {
+  font-size: 1rem;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+  line-height: 1.4;
+}
+
+.cert-info p {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
 /* Projects Grid */
 .grid {
   display: grid;
