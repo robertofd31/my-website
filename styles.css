@@ -476,6 +476,18 @@ h1, h2, h3, h4, h5, h6 {
   flex-grow: 1;
 }
 
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+  gap: 1rem;
+}
+
+.project-header .project-title {
+  margin-bottom: 0;
+}
+
 .project-title {
   font-size: 1.25rem;
   margin-bottom: 0.75rem;
