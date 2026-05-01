@@ -96,38 +96,78 @@ document.addEventListener('DOMContentLoaded', () => {
     en: {
       "nav-exp": "Experience",
       "nav-projects": "Projects",
-      "nav-edu": "Education",
+      "nav-education": "Education",
       "nav-skills": "Skills",
       "nav-about": "About me",
       "nav-contact": "Contact",
-      "hero-badge": "Available for work",
-      "hero-title": "Hey, I'm ",
-      "hero-desc": "+4 years of experience. <strong>Statistician</strong> and <strong>Data & ML Engineer</strong>. Specialized in building scalable cloud infrastructure, predictive algorithms, and end-to-end data pipelines for complex business problems.",
+      "hero-badge": "<span class=\"status-dot\"></span>Available for work",
+      "hero-title": "Hey, I'm <span class=\"gradient-text\">Roberto Fajardo</span>",
+      "hero-lead": "+4 years of experience. <strong>Statistician</strong> and <strong>Data & ML Engineer</strong>. Specialized in building scalable cloud infrastructure, predictive algorithms, and end-to-end data pipelines for complex business problems.",
       "contact-btn": "Contact me",
       "section-exp": "Work Experience",
       "section-projects": "Projects",
       "section-edu": "Education",
       "section-skills": "Skills & Tech Stack",
       "section-about": "About me",
-      "section-contact": "Contact"
+      "section-contact": "Contact",
+      "exp-sabadell": "Validated performance and improved discrimination of <strong>complex credit risk models</strong>. Optimized data process workflows and developed analytical programs in <strong>SAS</strong>, enhancing overall results by <strong>50%</strong>. Managed large-scale financial databases using <strong>SQL</strong>.",
+      "exp-orwee": "Designed and implemented the project's <strong>end-to-end cloud architecture</strong>. Built a complete <strong>ETL system</strong> and a custom <strong>API</strong> to deliver real-time data to the app (<strong>+50M data points read</strong>). Implemented machine learning algorithms to generate advanced analytics for <strong>hundreds of monthly users</strong>.",
+      "exp-chaintax": "<strong>Compliance:</strong> Engineered an on-chain methodology to track complex <strong>Liquidity Pool</strong> transactions, increasing tax reporting accuracy by <strong>95%</strong>. <strong>Architecture:</strong> Deployed scalable backend infrastructure and an <strong>AI agent</strong> for regulatory queries, reducing manual review time by <strong>60%</strong>.",
+      "exp-plutus": "Designed comprehensive token longevity simulations with a <strong>3-year outlook</strong> to ensure protocol sustainability under extreme market volatility. Estimated intrinsic value capture across user segments, providing strategic modeling that increased projected staking retention by <strong>20%</strong>.",
+      "exp-albeit": "Created interactive <strong>Power BI dashboards</strong> for strategic investment decisions. Developed <strong>Python-based ETL processes</strong>, successfully automating <strong>80% of visualization workflows</strong> and reporting, enhancing <strong>operational efficiency by 40%</strong>.",
+      "proj-orwee-desc": "Flagship product: a comprehensive terminal designed to bring clarity into decentralized finance. Includes Liquidity Pool Explorer, Portfolio tracking, Farms, Watchlist, and Funding Rate Arbitrage. +50M Data Points read.",
+      "proj-heroes-desc": "Developed a centralized dashboard to track KPIs and core metrics used during classes, providing students and instructors with a single point of truth for crypto market analysis.",
+      "proj-chaintax-desc": "On-chain methodology to track <strong>Liquidity Pool</strong> transactions for DeFi tax compliance. Deployment of an AI Agent (LangChain) to automate crypto tax regulation queries and full backend infrastructure management.",
+      "proj-gliquid-desc": "Design of an Automated Liquidity Manager (ALM) algorithm based on Bollinger Bands and Keltner Channels. Strategy simulation engine with on-chain subgraph data extraction and time-series analysis.",
+      "proj-vaults-desc": "Asset Management strategy for <strong>Liquidity Pool Vaults</strong>. Liquidity research and automated flows to optimize yield performance on on-chain positions.",
+      "edu-master": "Big Data Master's Degree",
+      "edu-stat": "Statistics Bachelor's Degree",
+      "cert-title": "Certifications & Badges",
+      "cert-sas-app": "Applied Statistics Specialization",
+      "cert-sas-prog": "Programming Specialization",
+      "cert-ibm-ml": "Machine Learning with Python",
+      "cert-meta": "Digital Marketing Associate",
+      "about-p1": "My name is Roberto Fajardo. I am a data passionate with a background as a statistician and a strong entrepreneurial drive. I am deeply interested in <strong>transforming raw data into actionable insights and automated systems that scale</strong>.",
+      "about-p2": "Throughout my career, I have transitioned from evaluating complex risk models in traditional banking (Bank Sabadell) to building <strong>cutting-edge technological solutions in fast-paced tech environments</strong>. As a founder of Orwee Solutions, I have designed <strong>cloud architectures and ETL pipelines from scratch that power robust analytical platforms</strong>.",
+      "about-p3": "<strong>My goal is to solve complex problems by building resilient systems</strong>, from real-time APIs to backtesting algorithms and AI agents that automate and simplify complexity."
     },
     es: {
       "nav-exp": "Experiencia",
       "nav-projects": "Proyectos",
-      "nav-edu": "Educación",
+      "nav-education": "Educación",
       "nav-skills": "Habilidades",
       "nav-about": "Sobre mí",
       "nav-contact": "Contacto",
-      "hero-badge": "Disponible para trabajar",
-      "hero-title": "Hola, soy ",
-      "hero-desc": "+4 años de experiencia. <strong>Estadístico</strong> y <strong>Data & ML Engineer</strong>. Especializado en construir infraestructura cloud escalable, algoritmos predictivos y pipelines de datos de principio a fin para problemas de negocio complejos.",
+      "hero-badge": "<span class=\"status-dot\"></span>Disponible para trabajar",
+      "hero-title": "Hola, soy <span class=\"gradient-text\">Roberto Fajardo</span>",
+      "hero-lead": "+4 años de experiencia. <strong>Estadístico</strong> y <strong>Data & ML Engineer</strong>. Especializado en construir infraestructura cloud escalable, algoritmos predictivos y pipelines de datos de principio a fin para problemas de negocio complejos.",
       "contact-btn": "Contáctame",
       "section-exp": "Experiencia Laboral",
       "section-projects": "Proyectos",
       "section-edu": "Educación",
       "section-skills": "Habilidades y Stack Técnico",
       "section-about": "Sobre mí",
-      "section-contact": "Contacto"
+      "section-contact": "Contacto",
+      "exp-sabadell": "Validé el rendimiento y mejoré la discriminación de <strong>modelos complejos de riesgo de crédito</strong>. Optimicé flujos de trabajo de datos y desarrollé programas analíticos en <strong>SAS</strong>, mejorando los resultados globales en un <strong>50%</strong>. Gestioné bases de datos financieras a gran escala usando <strong>SQL</strong>.",
+      "exp-orwee": "Diseñé e implementé la <strong>arquitectura cloud de extremo a extremo</strong> del proyecto. Construí un <strong>sistema ETL</strong> completo y una <strong>API</strong> personalizada para entregar datos en tiempo real a la aplicación (<strong>+50M de puntos de datos leídos</strong>). Implementé algoritmos de machine learning para generar analíticas avanzadas para <strong>cientos de usuarios mensuales</strong>.",
+      "exp-chaintax": "<strong>Compliance:</strong> Diseñé una metodología on-chain para rastrear transacciones complejas de <strong>Liquidity Pool</strong>, aumentando la precisión de los informes fiscales en un <strong>95%</strong>. <strong>Arquitectura:</strong> Desplegué infraestructura backend escalable y un <strong>agente de IA</strong> para consultas regulatorias, reduciendo el tiempo de revisión manual en un <strong>60%</strong>.",
+      "exp-plutus": "Diseñé simulaciones completas de longevidad de tokens con una <strong>perspectiva de 3 años</strong> para asegurar la sostenibilidad del protocolo bajo volatilidad extrema del mercado. Estimé la captura de valor intrínseco a través de segmentos de usuarios, proporcionando modelado estratégico que aumentó la retención de staking proyectada en un <strong>20%</strong>.",
+      "exp-albeit": "Creé <strong>dashboards interactivos en Power BI</strong> para decisiones estratégicas de inversión. Desarrollé <strong>procesos ETL basados en Python</strong>, automatizando con éxito el <strong>80% de los flujos de visualización</strong> y reportes, mejorando la <strong>eficiencia operativa en un 40%</strong>.",
+      "proj-orwee-desc": "Producto estrella: una terminal completa diseñada para aportar claridad a las finanzas descentralizadas. Incluye Explorador de Liquidity Pools, seguimiento de portafolios, Granjas, Watchlist y Arbitraje de Funding Rate. +50M de puntos de datos leídos.",
+      "proj-heroes-desc": "Desarrollé un dashboard centralizado para rastrear KPIs y métricas principales utilizadas en clase, proporcionando a estudiantes e instructores un único punto de verdad para el análisis del mercado cripto.",
+      "proj-chaintax-desc": "Metodología on-chain para rastrear transacciones de <strong>Liquidity Pool</strong> para cumplimiento fiscal DeFi. Despliegue de un Agente de IA (LangChain) para automatizar consultas de regulación fiscal cripto y gestión completa de la infraestructura backend.",
+      "proj-gliquid-desc": "Diseño de un algoritmo de Automated Liquidity Manager (ALM) basado en Bandas de Bollinger y Canales de Keltner. Motor de simulación de estrategias con extracción de datos de subgrafos on-chain y análisis de series temporales.",
+      "proj-vaults-desc": "Estrategia de gestión de activos para <strong>Liquidity Pool Vaults</strong>. Investigación de liquidez y flujos automatizados para optimizar el rendimiento del yield en posiciones on-chain.",
+      "edu-master": "Máster en Big Data",
+      "edu-stat": "Grado en Estadística",
+      "cert-title": "Certificaciones y Logros",
+      "cert-sas-app": "Especialización en Estadística Aplicada",
+      "cert-sas-prog": "Especialización en Programación",
+      "cert-ibm-ml": "Machine Learning con Python",
+      "cert-meta": "Digital Marketing Associate",
+      "about-p1": "Mi nombre es Roberto Fajardo. Soy un apasionado de los datos con formación como estadístico y un fuerte impulso emprendedor. Estoy profundamente interesado en <strong>transformar datos brutos en insights accionables y sistemas automatizados que escalen</strong>.",
+      "about-p2": "A lo largo de mi carrera, he pasado de evaluar modelos complejos de riesgo en banca tradicional (Banco Sabadell) a construir <strong>soluciones tecnológicas de vanguardia en entornos tecnológicos de ritmo rápido</strong>. Como fundador de Orwee Solutions, he diseñado <strong>arquitecturas cloud y pipelines ETL desde cero que potencian plataformas analíticas robustas</strong>.",
+      "about-p3": "<strong>Mi objetivo es resolver problemas complejos construyendo sistemas resilientes</strong>, desde APIs en tiempo real hasta algoritmos de backtesting y agentes de IA que automatizan y simplifican la complejidad."
     }
   };
 
@@ -139,46 +179,23 @@ document.addEventListener('DOMContentLoaded', () => {
       btn.classList.toggle('active', btn.dataset.lang === lang);
     });
 
-    // Update main UI elements
-    const elements = {
-      ".nav-link[href='#experience']": "nav-exp",
-      ".nav-link[href='#projects']": "nav-projects",
-      ".nav-link[href='#education']": "nav-edu",
-      ".nav-link[href='#skills']": "nav-skills",
-      ".nav-link[href='#about']": "nav-about",
-      ".nav-link[href='#contact']": "nav-contact",
-      ".status-badge": "hero-badge",
-      ".hero-title": "hero-title",
-      ".lead": "hero-desc",
-      "#experience .section-title": "section-exp",
-      "#projects .section-title": "section-projects",
-      "#education .section-title": "section-edu",
-      "#skills .section-title": "section-skills",
-      "#about .section-title": "section-about",
-      "#contact .section-title": "section-contact",
-      ".contact-btn": "contact-btn"
-    };
-
-    Object.entries(elements).forEach(([selector, key]) => {
-      const el = document.querySelector(selector);
-      if (el) {
-        if (key === "hero-title") {
-          // Special handling for title with gradient
-          const gradientText = el.querySelector('.gradient-text');
-          const name = gradientText ? gradientText.textContent : 'Roberto Fajardo';
-          el.innerHTML = translations[lang][key] + `<span class="gradient-text">${name}</span>`;
-        } else if (key === "hero-desc" || key === "hero-badge") {
-          el.innerHTML = translations[lang][key];
+    const tElements = document.querySelectorAll('[data-t]');
+    tElements.forEach(el => {
+      const key = el.dataset.t;
+      if (translations[lang][key]) {
+        // Preserve SVG icons if present
+        const svg = el.querySelector('svg');
+        if (svg) {
+          const tempDiv = document.createElement('div');
+          tempDiv.innerHTML = translations[lang][key];
+          const textOnly = tempDiv.textContent || tempDiv.innerText;
+          
+          // Clear current content and restore SVG + new text
+          el.innerHTML = '';
+          el.appendChild(svg);
+          el.appendChild(document.createTextNode(' ' + textOnly.trim()));
         } else {
-          // Preserve SVG if present
-          const svg = el.querySelector('svg');
-          if (svg) {
-            el.innerHTML = '';
-            el.appendChild(svg);
-            el.appendChild(document.createTextNode(' ' + translations[lang][key]));
-          } else {
-            el.textContent = translations[lang][key];
-          }
+          el.innerHTML = translations[lang][key];
         }
       }
     });
