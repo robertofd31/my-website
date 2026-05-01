@@ -115,15 +115,22 @@ document.addEventListener('DOMContentLoaded', () => {
       "exp-chaintax": "Engineered an on-chain methodology to track complex <strong>Liquidity Pool</strong> transactions, increasing tax reporting accuracy by <strong>95%</strong>. Additionally, I deployed a scalable backend infrastructure and an <strong>AI agent</strong> for regulatory queries, which reduced manual review time by <strong>60%</strong>.",
       "exp-plutus": "Designed comprehensive token longevity simulations with a <strong>3-year outlook</strong> to ensure protocol sustainability under extreme market volatility. Estimated intrinsic value capture across user segments, providing strategic modeling that increased projected staking retention by <strong>20%</strong>.",
       "exp-albeit": "Created interactive <strong>Power BI dashboards</strong> for strategic investment decisions. Developed <strong>Python-based ETL processes</strong>, successfully automating <strong>80% of visualization workflows</strong> and reporting, enhancing <strong>operational efficiency by 40%</strong>.",
-      "proj-orwee-desc": "A comprehensive terminal designed to bring clarity to decentralized finance by integrating a <strong>Liquidity Pool Explorer</strong>, portfolio tracking, and yield farming analytics. The platform features advanced modules for watchlist management and <strong>Funding Rate Arbitrage</strong>, leveraging over 50M data points to provide users with institutional-grade DeFi insights.",
+      "proj-orwee-desc": "A comprehensive DeFi terminal for decentralized finance analytics. Features include a Liquidity Pool Explorer, portfolio tracking, and Funding Rate Arbitrage, processing over 50M data points to deliver real-time institutional insights.",
       "proj-heroes-desc": "Developed a centralized dashboard to track KPIs and core metrics used during classes, providing students and instructors with a single point of truth for crypto market analysis.",
       "proj-vaults-desc": "Asset Management strategy for <strong>Liquidity Pool Vaults</strong>. Liquidity research and automated flows to optimize yield performance on on-chain positions.",
       "proj-gliquid-desc": "Design of an Automated Liquidity Manager (ALM) algorithm based on Bollinger Bands and Keltner Channels. Strategy simulation engine with on-chain subgraph data extraction and time-series analysis.",
-      "proj-vaults-desc": "Asset Management strategy for <strong>Liquidity Pool Vaults</strong>. Liquidity research and automated flows to optimize yield performance on on-chain positions.",
       "edu-master": "Big Data Master's Degree",
       "edu-stat": "Statistics Bachelor's Degree",
       "cert-title": "Certifications & Badges",
-      "cert-title": "Certifications & Badges",
+      "skill-ai": "AI & Machine Learning",
+      "skill-etl": "ETL & Data Pipelines",
+      "skill-workflow": "Workflow Automation",
+      "skill-vis": "Data Visualization",
+      "skill-problem": "Problem-Solving",
+      "skill-mindset": "Entrepreneurial Mindset",
+      "skill-remote": "Remote Work & Autonomy",
+      "skill-time": "Time Management",
+      "skill-finance": "Finance Knowledge",
       "about-p1": "My name is Roberto Fajardo. I am a data passionate with a background as a statistician and a strong entrepreneurial drive. I am deeply interested in <strong>transforming raw data into actionable insights and automated systems that scale</strong>.",
       "about-p2": "Throughout my career, I have transitioned from evaluating complex risk models in traditional banking (Bank Sabadell) to building <strong>cutting-edge technological solutions in fast-paced tech environments</strong>. As a founder of Orwee Solutions, I have designed <strong>cloud architectures and ETL pipelines from scratch that power robust analytical platforms</strong>.",
       "about-p3": "<strong>My goal is to solve complex problems by building resilient systems</strong>, from real-time APIs to backtesting algorithms and AI agents that automate and simplify complexity."
@@ -131,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
     es: {
       "nav-exp": "Experiencia",
       "nav-projects": "Proyectos",
-      "nav-education": "Educación",
+      "nav-education": "Formación",
       "nav-skills": "Habilidades",
       "nav-about": "Sobre mí",
       "nav-contact": "Contacto",
@@ -141,7 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
       "contact-btn": "Contáctame",
       "section-exp": "Experiencia Laboral",
       "section-projects": "Proyectos",
-      "section-edu": "Educación",
+      "section-edu": "Formación",
       "section-skills": "Habilidades y Stack Técnico",
       "section-about": "Sobre mí",
       "section-contact": "Contacto",
@@ -150,15 +157,22 @@ document.addEventListener('DOMContentLoaded', () => {
       "exp-chaintax": "Desarrollé una metodología on-chain para rastrear transacciones complejas de <strong>Liquidity Pool</strong>, logrando aumentar la precisión de los reportes fiscales en un <strong>95%</strong>. Complementariamente, desplegué infraestructura de backend escalable y un <strong>agente de IA</strong> para resolver consultas regulatorias, reduciendo el tiempo de revisión manual en un <strong>60%</strong>.",
       "exp-plutus": "Diseñé simulaciones completas de longevidad de tokens con una <strong>perspectiva de 3 años</strong> para asegurar la sostenibilidad del protocolo bajo volatilidad extrema del mercado. Estimé la captura de valor intrínseco a través de segmentos de usuarios, proporcionando modelado estratégico que aumentó la retención de staking proyectada en un <strong>20%</strong>.",
       "exp-albeit": "Creé <strong>dashboards interactivos en Power BI</strong> para decisiones estratégicas de inversión. Desarrollé <strong>procesos ETL basados en Python</strong>, automatizando con éxito el <strong>80% de los flujos de visualización</strong> y reportes, mejorando la <strong>eficiencia operativa en un 40%</strong>.",
-      "proj-orwee-desc": "Una terminal integral diseñada para aportar claridad a las finanzas descentralizadas mediante la integración de un <strong>explorador de Liquidity Pools</strong>, seguimiento de portafolio y analíticas de yield farming. La plataforma cuenta con módulos avanzados para la gestión de watchlists y <strong>arbitraje de Funding Rates</strong>, aprovechando más de 50 millones de puntos de datos para ofrecer a los usuarios insights de DeFi de nivel institucional.",
+      "proj-orwee-desc": "Una terminal DeFi integral para el análisis de finanzas descentralizadas. Incluye explorador de Liquidity Pools, seguimiento de portafolio y arbitraje de Funding Rates, procesando más de 50M de datos en tiempo real.",
       "proj-heroes-desc": "Desarrollé un dashboard centralizado para rastrear KPIs y métricas principales utilizadas en clase, proporcionando a estudiantes e instructores un único punto de verdad para el análisis del mercado cripto.",
       "proj-vaults-desc": "Estrategia de gestión de activos para <strong>Liquidity Pool Vaults</strong>. Investigación de liquidez y flujos automatizados para optimizar el rendimiento del yield en posiciones on-chain.",
       "proj-gliquid-desc": "Diseño de un algoritmo de Automated Liquidity Manager (ALM) basado en Bandas de Bollinger y Canales de Keltner. Motor de simulación de estrategias con extracción de datos de subgrafos on-chain y análisis de series temporales.",
-      "proj-vaults-desc": "Estrategia de gestión de activos para <strong>Liquidity Pool Vaults</strong>. Investigación de liquidez y flujos automatizados para optimizar el rendimiento del yield en posiciones on-chain.",
       "edu-master": "Máster en Big Data",
       "edu-stat": "Grado en Estadística",
       "cert-title": "Certificaciones y Logros",
-      "cert-title": "Certificaciones y Logros",
+      "skill-ai": "IA y Machine Learning",
+      "skill-etl": "ETL y Pipelines de Datos",
+      "skill-workflow": "Automatización de Flujos",
+      "skill-vis": "Visualización de Datos",
+      "skill-problem": "Resolución de Problemas",
+      "skill-mindset": "Mentalidad Emprendedora",
+      "skill-remote": "Trabajo Remoto y Autonomía",
+      "skill-time": "Gestión del Tiempo",
+      "skill-finance": "Conocimientos Financieros",
       "about-p1": "Mi nombre es Roberto Fajardo. Soy un apasionado de los datos con formación como estadístico y un fuerte impulso emprendedor. Estoy profundamente interesado en <strong>transformar datos brutos en insights accionables y sistemas automatizados que escalen</strong>.",
       "about-p2": "A lo largo de mi carrera, he pasado de evaluar modelos complejos de riesgo en banca tradicional (Banco Sabadell) a construir <strong>soluciones tecnológicas de vanguardia en entornos tecnológicos de ritmo rápido</strong>. Como fundador de Orwee Solutions, he diseñado <strong>arquitecturas cloud y pipelines ETL desde cero que potencian plataformas analíticas robustas</strong>.",
       "about-p3": "<strong>Mi objetivo es resolver problemas complejos construyendo sistemas resilientes</strong>, desde APIs en tiempo real hasta algoritmos de backtesting y agentes de IA que automatizan y simplifican la complejidad."
@@ -177,16 +191,19 @@ document.addEventListener('DOMContentLoaded', () => {
     tElements.forEach(el => {
       const key = el.dataset.t;
       if (translations[lang][key]) {
-        // Preserve SVG icons if present
+        // Preserve SVG icons or dev-icons if present
         const svg = el.querySelector('svg');
-        if (svg) {
+        const devIcon = el.querySelector('.dev-icon');
+        
+        if (svg || devIcon) {
           const tempDiv = document.createElement('div');
           tempDiv.innerHTML = translations[lang][key];
           const textOnly = tempDiv.textContent || tempDiv.innerText;
           
-          // Clear current content and restore SVG + new text
+          // Clear current content and restore icon + new text
           el.innerHTML = '';
-          el.appendChild(svg);
+          if (svg) el.appendChild(svg);
+          if (devIcon) el.appendChild(devIcon);
           el.appendChild(document.createTextNode(' ' + textOnly.trim()));
         } else {
           el.innerHTML = translations[lang][key];
