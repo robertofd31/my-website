@@ -182,6 +182,41 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--text-primary);
 }
 
+/* Language Selector */
+.lang-selector {
+  display: flex;
+  align-items: center;
+  gap: 0.15rem;
+  margin-right: 0.5rem;
+  font-family: var(--font-primary);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: 0.25rem;
+  transition: color 0.3s ease;
+}
+
+.lang-btn:hover {
+  color: var(--primary-color);
+}
+
+.lang-btn.active {
+  color: var(--primary-color);
+  pointer-events: none;
+}
+
+.lang-separator {
+  color: var(--glass-border);
+  font-weight: 300;
+  opacity: 0.5;
+}
+
 .theme-toggle, .menu-toggle {
   background: transparent;
   border: none;
