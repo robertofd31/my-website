@@ -648,10 +648,8 @@ h1, h2, h3, h4, h5, h6 {
     top: 70px;
     left: 0;
     right: 0;
-    background: var(--glass-bg);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border-bottom: 1px solid var(--glass-border);
+    background: var(--bg-color);
+    border-bottom: 1px solid var(--surface-border);
     flex-direction: column;
     padding: 2rem;
     gap: 1.5rem;
