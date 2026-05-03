@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
       "section-exp": "Experiencia Laboral",
       "section-projects": "Proyectos",
       "section-edu": "Formación",
-      "section-skills": "Habilidades y Stack Técnico",
+      "section-skills": "Habilidades y Stack Tecnológico",
       "section-about": "Sobre mí",
       "section-contact": "Contacto",
       "exp-sabadell": "Validé el rendimiento y mejoré la discriminación de <strong>modelos complejos de riesgo de crédito</strong>. Optimicé flujos de trabajo de datos y desarrollé programas analíticos en <strong>SAS</strong>, mejorando los resultados globales en un <strong>50%</strong>. Gestioné bases de datos financieras a gran escala usando <strong>SQL</strong>.",
