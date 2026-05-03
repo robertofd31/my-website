@@ -139,7 +139,10 @@ document.addEventListener('DOMContentLoaded', () => {
       "contact-cta": "Got a project in mind?",
       "contact-desc": "Tell me about your challenge. I will analyze your case and propose the most suitable solution for your company, from data architecture and backend development to predictive algorithms, advanced visualization, or AI agent integration.",
       "footer-top": "Back to top",
-      "footer-built": "Built with dedication"
+      "footer-built": "Built with dedication",
+      "resume-btn": "Resume",
+      "skills-software": "Software & Technologies",
+      "skills-core": "Core Skills"
     },
     es: {
       "nav-exp": "Experiencia",
@@ -187,7 +190,10 @@ document.addEventListener('DOMContentLoaded', () => {
       "contact-cta": "¿Tienes un proyecto en mente?",
       "contact-desc": "Cuéntame tu desafío. Analizaré tu caso y propondré la solución más adecuada para tu empresa, desde arquitectura de datos y backend hasta el desarrollo de algoritmos predictivos, visualización avanzada o integración de agentes de IA.",
       "footer-top": "Volver arriba",
-      "footer-built": "Hecho con dedicación"
+      "footer-built": "Hecho con dedicación",
+      "resume-btn": "Currículum",
+      "skills-software": "Software y Tecnologías",
+      "skills-core": "Habilidades Principales"
     }
   };
 
