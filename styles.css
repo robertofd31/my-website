@@ -677,6 +677,11 @@ h1, h2, h3, h4, h5, h6 {
 
   .skills-list li strong {
     white-space: normal;
+    display: block;
+  }
+
+  .skills-list li span {
+    display: inline;
   }
 }
 
