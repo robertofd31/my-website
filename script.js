@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "skill-model-title": "Advanced Analytics:",
         "skill-model-desc": "Statistical Modeling, Time-Series Forecasting.",
         "skill-cloud-title": "Data Engineering & Cloud:",
-        "skill-cloud-desc": "AWS (S3, Lambda, EC2), Docker, dbt, ETL Pipelines, CI/CD, n8n, REST APIs, Git/GitHub.",
+        "skill-cloud-desc": "AWS (S3, Lambda, EC2), Docker, dbt, ETL Pipelines, CI/CD, n8n, FastAPI, REST APIs, Git/GitHub.",
         "skill-ai-title": "AI & Automation:",
         "skill-ai-desc": "AI Agents & LLM Integration, Workflow Automation, Machine Learning.",
         "skill-db-title": "Databases:",
