@@ -669,19 +669,20 @@ h1, h2, h3, h4, h5, h6 {
     gap: 0.5rem;
   }
 
+  .skills-container {
+    padding: 1.5rem;
+  }
+
   .skills-list li {
     align-items: flex-start;
     font-size: 0.85rem;
-    gap: 0.4rem;
+    gap: 0.45rem;
   }
 
-  .skills-list li strong {
+  .skill-text strong {
     white-space: normal;
     display: block;
-  }
-
-  .skills-list li span {
-    display: inline;
+    margin-bottom: 0.15rem;
   }
 }
 
@@ -765,6 +766,11 @@ h1, h2, h3, h4, h5, h6 {
 .skills-list li strong {
   color: var(--text-primary);
   white-space: nowrap;
+}
+
+.skill-text {
+  flex: 1;
+  min-width: 0;
 }
 
 /* Icon specific styling */
