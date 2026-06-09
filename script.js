@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "skill-cloud-title": "Ingeniería de Datos y Cloud:",
         "skill-cloud-desc": "AWS, Docker, dbt, Airflow, Snowflake, Pipelines ETL, CI/CD, n8n, FastAPI, REST APIs, GitHub.",
         "skill-ai-title": "IA y Automatización:",
-        "skill-ai-desc": "Integración de Agentes de IA y LLMs, LangChain, RAG, Automatización de Flujos de Trabajo, Machine Learning.",
+        "skill-ai-desc": "Integración de Agentes de IA y LLMs, LangChain, RAG, Workflows, Machine Learning.",
         "skill-db-title": "Bases de Datos:",
         "skill-db-desc": "MySQL, NoSQL, Bases de Datos Relacionales a Gran Escala.",
         "skill-bi-title": "BI y Visualización:",
