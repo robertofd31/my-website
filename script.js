@@ -243,6 +243,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
       }
     });
+
+    // Update resume download link
+    const resumeLink = document.querySelector('[data-resume-en]');
+    if (resumeLink) {
+      resumeLink.href = resumeLink.dataset[`resume${lang === 'en' ? 'En' : 'Es'}`];
+    }
   };
 
   // Load saved language or default to en
