@@ -344,6 +344,10 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.02em;
 }
 
+html[lang="es"] .hero-title {
+  font-size: clamp(2.2rem, 5.5vw, 4rem);
+}
+
 .lead {
   font-size: clamp(1.1rem, 2vw, 1.25rem);
   color: var(--text-secondary);
