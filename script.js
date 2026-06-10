@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "nav-skills": "Habilidades",
         "nav-about": "Sobre mí",
         "nav-contact": "Contacto",
-        "hero-badge": "<span class=\"status-dot\"></span>Hablemos",
+        "hero-badge": "<span class=\"status-dot\"></span>¿Hablamos?",
         "hero-title": "Hola, soy <span class=\"gradient-text\">Roberto Fajardo</span>",
         "hero-lead": "Más de 5 años de experiencia. <strong>Data & AI Engineer</strong> y <strong>Estadístico</strong>. Especializado en construir infraestructura cloud escalable, modelos predictivos y pipelines de datos de principio a fin para sistemas financieros y de IA complejos.",
         "role-sabadell": "Data Scientist & Data Hub Specialist",
