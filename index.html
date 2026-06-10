@@ -6,17 +6,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
     content="Portfolio of Roberto Fajardo - Data & AI Engineer. Experience, projects, and contact.">
-  <meta property="og:image" content="og-image.png">
+  <meta name="theme-color" content="#050505">
+  <meta property="og:image" content="https://robertofajardoduro.com/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Roberto Fajardo - Data & AI Engineer Portfolio">
   <meta property="og:title" content="Roberto Fajardo | Data & AI Engineer">
-  <meta property="og:description" content="+5 years of experience. Data & AI Engineer and Statistician specialized in building scalable cloud infrastructure.">
+  <meta property="og:description" content="5+ years of experience. Data & AI Engineer and Statistician specialized in building scalable cloud infrastructure.">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://robertofajardoduro.com/">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="og-image.png">
+  <meta name="twitter:title" content="Roberto Fajardo | Data & AI Engineer">
+  <meta name="twitter:description" content="5+ years of experience. Data & AI Engineer and Statistician specialized in building scalable cloud infrastructure.">
+  <meta name="twitter:image" content="https://robertofajardoduro.com/og-image.png">
+  <link rel="canonical" href="https://robertofajardoduro.com/">
   <title>Roberto Fajardo | Data & AI Engineer</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Roberto Fajardo Duro",
+    "jobTitle": "Data & AI Engineer",
+    "url": "https://robertofajardoduro.com/",
+    "email": "mailto:robertofd31@gmail.com",
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Universidad Complutense de Madrid" },
+      { "@type": "CollegeOrUniversity", "name": "Universidad Europea" }
+    ],
+    "sameAs": [
+      "https://www.linkedin.com/in/roberto-fajardo-duro/",
+      "https://github.com/robertofd31"
+    ]
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -26,6 +49,12 @@
 </head>
 
 <body data-theme="dark">
+  <script>
+    try {
+      document.body.setAttribute('data-theme', localStorage.getItem('portfolio-theme') || 'dark');
+      document.documentElement.lang = localStorage.getItem('portfolio-lang') || 'en';
+    } catch (e) { }
+  </script>
   <div class="background-effects">
     <div class="glow glow-1"></div>
     <div class="glow glow-2"></div>
@@ -68,7 +97,7 @@
           </svg>
         </button>
       </nav>
-      <button class="menu-toggle" aria-label="Open menu">
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <line x1="3" y1="12" x2="21" y2="12" />
@@ -88,9 +117,9 @@
         </div>
         <h1 class="hero-title" data-t="hero-title">Hey, I'm <span class="gradient-text">Roberto Fajardo</span></h1>
         <p class="lead" data-t="hero-lead">
-          +5 years of experience. <strong>Data & AI Engineer</strong> and <strong>Statistician</strong>. Specialized in
+          5+ years of experience. <strong>Data & AI Engineer</strong> and <strong>Statistician</strong>. Specialized in
           building scalable
-          cloud infrastructure, predictive algorithms, and end-to-end data pipelines for complex business problems.
+          cloud infrastructure, predictive models, and end-to-end data pipelines for complex financial and AI systems.
         </p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="mailto:robertofd31@gmail.com" data-t="contact-btn">
@@ -149,7 +178,7 @@
             <div class="timeline-header">
               <div>
                 <h3 class="role" data-t="role-sabadell">Data Scientist & Data Hub Specialist</h3>
-                <h4 class="company">Bank Sabadell</h4>
+                <h4 class="company">Banco Sabadell</h4>
               </div>
               <span class="period">September 2024 - Present</span>
             </div>
@@ -170,7 +199,7 @@
               <span class="period">March 2023 - Present</span>
             </div>
             <p data-t="exp-orwee">
-              <strong>Infrastructure:</strong> Designed and deployed a full-stack cloud architecture (AWS) supporting a real-time ETL system that processes 50M+ on-chain data points.<br><strong>Product Innovation:</strong> Developed a custom Lending Risk Dashboard for concentrated liquidity, enabling real-time monitoring of protocol inflection points for 500+ active users.<br><strong>Advanced Analytics:</strong> Implemented Python-based ML algorithms to identify yield-optimization opportunities and funding-rate arbitrage across multiple chains.
+              <strong>Infrastructure:</strong> Designed and deployed a full-stack cloud architecture (AWS) supporting a real-time ETL system that processes 50M+ on-chain data points.<br><strong>Product Innovation:</strong> Developed a custom dashboard for advanced opportunity discovery, enabling real-time monitoring of key on-chain data for 500+ active users.<br><strong>Advanced Analytics:</strong> Implemented Python-based ML algorithms to identify yield-optimization opportunities and funding-rate arbitrage across multiple chains.
             </p>
           </div>
         </article>
@@ -295,7 +324,7 @@
             <h3 class="project-title">Learning Heroes Crypto Analytics</h3>
             <p class="project-desc" data-t="proj-heroes-desc">
               Developed a centralized dashboard to track KPIs and core metrics used during classes, providing students
-              and instructors with a single point of truth for crypto market analysis.
+              and instructors with a single source of truth for crypto market analysis.
             </p>
             <div class="tags">
               <span class="tag"><i class="dev-icon"
@@ -305,7 +334,7 @@
                   style="mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/postgresql.svg'); -webkit-mask-image: url('https://cdn.jsdelivr.net/npm/simple-icons@v13/icons/postgresql.svg');"></i>PostgreSQL</span>
               <span class="tag"><svg class="lucide lucide-route" style="width:14px; height:14px; margin-right:4px;"
                   xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="3" /><path d="SVGPath 9 19h.01" /><path d="M15 6h.01" /><path d="M18 9h.01" /><path d="m6 17 3-13" /><path d="m9.5 6.5 1.5 4" /><path d="m14 10 2 6" /></svg>REST APIs</span>
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="3" /><path d="M9 19h.01" /><path d="M15 6h.01" /><path d="M18 9h.01" /><path d="m6 17 3-13" /><path d="m9.5 6.5 1.5 4" /><path d="m14 10 2 6" /></svg>REST APIs</span>
               <span class="tag"><svg class="lucide lucide-git-merge" style="width:14px; height:14px; margin-right:4px;"
                   xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="18" r="3" /><circle cx="6" cy="6" r="3" /><path d="M6 21V9a9 9 0 0 0 9 9" /></svg>Data Integration</span>
@@ -417,7 +446,7 @@
             <div class="timeline-header">
               <div>
                 <h3 class="role" data-t="edu-master">Big Data Master's Degree</h3>
-                <h4 class="company">European University</h4>
+                <h4 class="company" data-t="edu-master-uni">European University</h4>
               </div>
               <span class="period">2022 - 2023</span>
             </div>
@@ -430,7 +459,7 @@
             <div class="timeline-header">
               <div>
                 <h3 class="role" data-t="edu-stat">Statistics Bachelor's Degree</h3>
-                <h4 class="company">Complutense University</h4>
+                <h4 class="company" data-t="edu-stat-uni">Complutense University</h4>
               </div>
               <span class="period">2018 - 2022</span>
             </div>
@@ -451,7 +480,7 @@
             </svg>
             <div class="cert-info">
               <h4>Applied Statistics Specialization</h4>
-              <p>SAS & Complutense University</p>
+              <p data-t="cert-sas-uni">SAS & Complutense University</p>
             </div>
           </div>
           <div class="cert-item card glass">
@@ -464,7 +493,7 @@
             </svg>
             <div class="cert-info">
               <h4>Programming Specialization</h4>
-              <p>SAS & Complutense University</p>
+              <p data-t="cert-sas-uni">SAS & Complutense University</p>
             </div>
           </div>
           <div class="cert-item card glass">
@@ -583,21 +612,20 @@
       </h2>
       <div class="about-content card glass">
         <p data-t="about-p1">
-          My name is Roberto Fajardo. I am a data passionate with a background as a statistician and a
-          strong entrepreneurial drive. I am deeply interested in <strong>transforming raw data into actionable insights
-            and automated systems that scale</strong>.
+          My name is Roberto Fajardo. I am a statistician with a strong entrepreneurial drive and a passion for
+          <strong>transforming raw, fragmented data into production-grade infrastructure and automated systems that
+            scale</strong>.
         </p>
         <p data-t="about-p2">
-          Throughout my career, I have transitioned from evaluating complex risk models in traditional banking (Bank
-          Sabadell) to building <strong>cutting-edge technological solutions in fast-paced tech environments</strong>.
-          As a founder of
-          Orwee Solutions, I have designed <strong>cloud architectures and ETL pipelines from scratch that power robust
-            analytical platforms</strong>.
+          Throughout my career, I have bridged two worlds: validating complex credit risk models within traditional
+          institutional banking (Banco Sabadell) and architecting cutting-edge data solutions for fast-paced fintech
+          and decentralized environments. As a co-founder of Orwee, I have designed cloud architectures and real-time
+          ETL pipelines from scratch to power robust analytics platforms.
         </p>
         <p data-t="about-p3">
-          <strong>My goal is to solve complex problems by building resilient systems</strong>, from real-time APIs to
-          backtesting
-          algorithms and AI agents that automate and simplify complexity.
+          <strong>My goal is to solve high-stakes business problems by building resilient systems</strong>, ranging
+          from real-time financial APIs and quantitative backtesting engines to deploying AI agents that simplify
+          operational complexity.
         </p>
       </div>
     </section>
@@ -614,8 +642,8 @@
       <div class="contact-card card glass text-center">
         <h3 data-t="contact-cta">Got a project in mind?</h3>
         <p class="contact-desc" data-t="contact-desc">Tell me about your challenge. I will analyze your case and propose
-          the most suitable
-          data or backend architecture solution for your company.</p>
+          the most suitable solution for your company, from data architecture and backend development to predictive
+          algorithms, advanced visualization, or AI agent integration.</p>
         <a class="btn btn-primary contact-btn" href="mailto:robertofd31@gmail.com" data-t="contact-btn">
           Contact me
         </a>
@@ -625,7 +653,7 @@
 
   <footer class="site-footer">
     <div class="container footer-content">
-      <p>© 2026 Roberto Fajardo</p>
+      <p>© <span id="footer-year">2026</span> Roberto Fajardo</p>
       <div class="footer-links">
         <a href="#home" data-t="footer-top">Back to top</a>
         <span class="separator">•</span>
